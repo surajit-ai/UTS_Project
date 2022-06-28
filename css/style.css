@@ -1,0 +1,146 @@
+.dbox{
+    height: 50px;
+    background-color: #1A3964;
+    border-radius: 5px;
+}
+
+.pd{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.test::after{
+    content:'\2807';
+    font-size: 3em;
+    color: #2e2e2e;
+}
+.cols{
+    height: 100px;
+    background-color: darkgreen;
+}
+.ebox{
+    height: 375px;
+    background-color: rgb(198, 201, 202);
+    border-radius: 5px;
+}
+.fbox{
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.gbox{
+    height: 40px;
+    background-color:rgb(22, 88, 126);
+    border-radius: 5px;
+}
+.jbox{
+    height: 50px;
+    background-color;
+    border-radius: 5px;
+}
+.mbox{
+    height: 50px;
+    background-color: ;
+    border-radius:5px;
+    border: 1px solid black;
+}
+.sbox{
+    height: 20px;
+    background-color: #1A3964 ;
+    border-radius:px;
+
+}
+.xbox{
+    height: 260px;
+    background-color: rgb(196, 213, 223) ;
+    border-radius:5px;
+    border: 1px solid rgb(68, 162, 199);
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;    
+  }
+  .zbox{
+    height: 300px;
+    background-color: rgb(236, 231, 231);
+    border-radius: 5px;
+}
+.collapsible {
+    background-color: rgb(240, 234, 234);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: 9%;
+    border: 1px solid rgb(68, 162, 199);
+    text-align: left;
+    outline: ;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(224, 220, 220);
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: rgb(47, 72, 211);
+    font-weight: bold;
+    float: left;
+    margin-left: 0px;
+  }
+  .active:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  .pbox{
+    height: 1150px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sbox{
+  height: 150px;
+  width: 200px;
+  background-color: #1A3964;
+  border-radius: 5px;
+}
+.arow{
+  border: 10px solid yellow;
+}
+.vbox{
+  height: 150px;
+  width: 200px;
+  background-color: #1A3964;
+  border-radius: px;
+}
+body, html{
+  height: 100%;
+  margin: 10;
+}
+.bg {
+  /* The image used */
+  background-image: ("img_xxx1.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
